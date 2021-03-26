@@ -64,16 +64,16 @@ body {
     height:100% !important;
   }
 
-  .zoom {
+ .zoom {
     padding: 0px;
     background-color: transparent;
     transition: transform .2s;
-    width: 125%; 
-    height: 125%x;
+    width: 50%; 
+    height: 50%;
     margin: 0 auto;
   }
 .zoom:hover {
-    transform: scale(2);
+    transform: scale(1.15);
 }
 
   /* Title */
