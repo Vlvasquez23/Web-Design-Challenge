@@ -68,8 +68,8 @@ body {
     padding: 0px;
     background-color: transparent;
     transition: transform .2s;
-    width: 200px; 
-    height: 200px;
+    width: 125%; 
+    height: 125%x;
     margin: 0 auto;
   }
 .zoom:hover {
