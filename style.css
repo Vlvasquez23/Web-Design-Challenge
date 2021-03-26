@@ -1,8 +1,8 @@
 body {
-    background-image: url(assets/weather.png);
+    background-image: url(Resources/assets/weather.png);
     height: 850px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
   }
   
@@ -11,58 +11,74 @@ body {
     max-height: 60px;
   }
   .navigation .navbar-brand {
-    color: rgb(85, 58, 158);
+    color:  #213159;
     margin-left: 0px;
     padding: inherit;
     font-weight: bold;
-    background-color: white;
+    background-color: #f5803c;
     font-family: Verdana, Arial, Helvetica, sans-serif;
   }
   .navbar {
-    background-color: rgb(134, 23, 23);
+    background-color:#f5803c;
     font-size: 25px; 
+    font-weight: bold;
   }
   .active, .dropdown-menu .dropdown-item:active a:hover {
-    background-color: white !important;
+    background-color: #f5803c !important;
   }
   .dropdown-item {
     color: #213159 !important;
+    font-weight: bold;
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: #f04b4c !important;
+    background-color: #f5803c !important;
   }
   
   .nav-link:hover {
-    background-color:#E7E7E7 !important;
+    background-color:#f5803c !important;
+    border-color:#213159;
    }
   
   .navbar-brand:hover {
-  color: #f04b4c !important;
+  color: #213159 !important;
   }
   
   a {
-    color: #E7E7E7;
+    color: #f5803c;
     font-size: 15px;
   }
   
   /* Images */
   img{
-    width:100% !important;
-    height:100% !important;
-  }
+    width: 100% !important;
+    height: 100% !important;
+ }
+
   .active, .panel:hover {
     border-color:#213159;
     border-style: solid;
-    
+   
   }
   .vizualization {
-    width:50% !important;
-    height:50% !important;
+    width:100% !important;
+    height:100% !important;
   }
-  
+
+  .zoom {
+    padding: 0px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 200px; 
+    height: 200px;
+    margin: 0 auto;
+  }
+.zoom:hover {
+    transform: scale(2);
+}
+
   /* Title */
   .title {
-    color: #3d6098;
+    color: #213159;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bolder;
     padding-top: 10px;
@@ -95,7 +111,7 @@ body {
   background-color: #213159;
   border-top-style: solid;
   border-top-width: 5px;
-  border-top-color: #f04b4c;
+  border-top-color: #f5803c;
   color: white;
   min-height: 60px;
   font-family: Arial, Helvetica, sans-serif;
