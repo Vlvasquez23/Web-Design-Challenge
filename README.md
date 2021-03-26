@@ -1,5 +1,5 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
-Assignment Address: 
+Assignment Address: https://vlvasquez23.github.io/Web-Design-Challenge/index.html
 
 ## Background
 
